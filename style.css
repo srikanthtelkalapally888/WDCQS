@@ -1,0 +1,177 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+   
+    background-color: rgb(4, 46, 24);
+    color: white;
+    margin-right:auto;
+    margin-left:auto;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+h1{
+    font-size: 1.2rem;
+}
+hgroup h1{
+font-size: 2em;
+}
+hgroup h2{
+    font-size: 1.2em;
+}
+hgroup{
+    width: 70%;
+    float: left;
+}
+nav{
+    float:right;
+    width: 100%;
+   background-color: rgb(96, 166, 97);
+   overflow: hidden;
+   padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 10px;
+}
+nav ul li{
+    float:left;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: black;
+    background-color: aquamarine;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color: rgb(193, 223, 194);
+}
+nav ul li a.active{
+    background-color: rgb(193, 223, 194);;
+}
+
+
+.uwelcome{
+    text-align: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.screen {				
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+
+.login__input {
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+    border-style: double;
+}
+.checkbox{
+    padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__submit {
+    background-color: rgb(25, 102, 25);
+	padding-right: 20px;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #d0dfda;
+	outline: none;
+}
+.button__text{
+    color:white;
+    padding: 5px;
+
+}
+
+section{
+    background-color: white;
+    color: rgb(9, 0, 0);
+    margin-right:auto;
+    margin-left:auto;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+section .quizz_courses ul{
+    list-style-type: none;
+}
+section .quizz_courses ul li a{
+    color: black;
+    display: inline-block;
+    background-color: rgb(180, 189, 180);
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 10px;
+}
+section .quizz_courses ul li a:hover{
+    background-color: green;
+}
+footer{
+    background-color: rgb(7, 7, 7);
+    color: rgb(255, 250, 250);
+    margin-right:auto;
+    margin-left:auto;
+    width: 100%;
+    padding: 10px;
+}
+footer .insta{
+    color: rgb(246, 242, 242);
+    background-color: rgb(0, 5, 3);
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
